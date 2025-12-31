@@ -1,4 +1,4 @@
-# 🎬 Pandas Analysis of Netflix Shows and Movies with Visualization
+# 🎬 Pandas Analysis of Netflix Shows and Movies
 
 ## 📚 Table of Contents
 - **Project Overview**
