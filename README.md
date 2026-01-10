@@ -6,13 +6,13 @@
 - **Structure Explanation** 
 - **How to Run** 
 - **Pandas Analysis**
-- **Skills Used**
+- **What I have learned?**
 - **Technical Details**
 - **Author**
 
 ## 🔎 Project Overview
 
-The goal of this project is to analyze Netflix shows and Movies data using Pandas. Analysis itself is divided into ..., followed later by... The project takes a closer look at ...
+The goal of this project is to analyze Netflix shows and movies data using Pandas. Before the analysis dataset was cleaned in Pandas. The project takes a closer look at average duration of Netflix's productions, the number of Polish movies and shows released over the years and other.
 
 
 ## 📂 Data Overview
@@ -27,7 +27,9 @@ The dataset consists of **one CSV file**:
 
 ### Data Cleaning
 
-The dataset was cleaned in the [0_data_cleaning.ipynb](python_files/0_data_cleaning.ipynb) file: one column was dropped, null values were replaced, duplicates were removed, date column was formatted to the correct type, blank spaces from rows were removed and new dataframes were created (and saved to the new *csv* files).
+The dataset was cleaned in the [0_data_cleaning.ipynb](python_files/0_data_cleaning.ipynb) file: one column was dropped, null values were replaced, duplicates were removed, date column was formatted to the correct type, blank spaces from rows were removed.
+
+New dataframes were created and saved to the new csv files in **data_after_cleaning** folder.
 
 ## 🧱 Structure Explanation
 
@@ -35,7 +37,7 @@ The dataset was cleaned in the [0_data_cleaning.ipynb](python_files/0_data_clean
 |----------------|-------------|
 | **data/** | Original data file, files saved after data cleaning and analysis files outcomes |
 | **python_files/** | Python files used in the project |
-| **images/** | Charts used to visualize analysis |
+| **images/** | Matplotlib charts used to visualize analysis |
 | **README.md** | Project overview 
 
 ---
@@ -44,27 +46,68 @@ The dataset was cleaned in the [0_data_cleaning.ipynb](python_files/0_data_clean
 
 1. Download the entire folder
 2. Install Jupyter Notebook or VS Code (with the required extensions)
-3. Update all directory paths in all files
+3. Update all directory paths in all files (USER_PATH variable)
 
 ## 📈 Pandas Analysis
 
-### 1
+### 1. Actor and actress appearances in shows and movies
 
-Query: [1.]()
+**Notebook**: [Actors Appearances](python_files/1_actor_and_actress_appearances.ipynb)
 
 **Visualization:**
 
-![](/images/)
+![chart1](/images/chart1.png)
 
 **Insights:**
 
-## 💪 Skills Used
+### 2. How Many Polish Movies and Shows has Netflix released (over the years)?
+
+**Notebook**: [Movies and Show Release](python_files/2_polish_movies_and_shows.ipynb)
+
+**Visualization:**
+
+![chart1](/images/chart2.png)
+
+**Insights:**
+
+### 3. Average duration of movies and show by categories 
+
+**Notebook**: [Average Duration](python_files/3_avg_duration_analysis.ipynb)
+
+**Visualization:**
+
+![chart1](/images/chart3.png)
+
+**Insights:**
+
+### 4. American actors and directors who work together most often
+
+**Notebook**: [Actors and Director](python_files/4_american_actors_and_directors.ipynb)
+
+**Visualization:**
+
+| Duo                   | Number |
+|-----------------------|----------------------------|
+| PenaVega & Rodriguez  | 5                          |
+| Trejo & Rodriguez     | 4                          |
+| Keitel & Scorsese     | 4                          |
+| Sabara & Rodriguez    | 4                          |
+| Mewes & Smith         | 4                          |
+| Ford & Spielberg      | 4                          |
+| Eastwood & Eastwood   | 4                          |
+| Sandler & Brill       | 4                          |
+| Blair & Saulnier      | 4                          |
+| Wayans & Tiddes       | 4                          |
+
+
+**Insights:**
+
+## 💪 What I have learned?
 
 ## 🖥️ Technical Details
 
-- **Database:** Pandas !!!!!!!!
+- **Python Libraries:** Pandas, Matplotlib and other
 - **Environment:** Visual Studio Code
-- **Visualization:** 
 - **Data source:** [Kaggle Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows) 
 
 
