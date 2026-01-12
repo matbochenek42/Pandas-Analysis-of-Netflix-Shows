@@ -110,7 +110,7 @@ PenaVega & Rodriguez are the duo of actor and director who worked together most 
 
 ## 💪 What I Learned
 
-I learned multiple Python skills, especially Pandas and Matplotlib skills such as: accessing data, merging dataframes, creating pivot tables, aggregation, data visualization.
+I learned multiple Python skills, mainly Pandas and Matplotlib skills such as: accessing data, merging dataframes, creating pivot tables, aggregation, data visualization.
 
 ## 🖥️ Technical Details
 
